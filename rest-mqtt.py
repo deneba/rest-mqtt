@@ -33,9 +33,9 @@ class EasyHomeSwitch(Resource):
             topicdata =  kdata["skey"].strip()
 	    command = config.get('EasyHomeList', str(topicdata))
 	    client = mqtt.Client()
-      # Host address of mqtt (e.g., mosquitto broker)
+      	    # Host address of mqtt (e.g., mosquitto broker)
 	    client.connect("192.11.3.212")
-      client.publish(topic, command)
+      	    client.publish(topic, command)
 	    client.disconnect()
 	    print("Time:" + time.strftime("%d/%b/%y %H%M%S",time.localtime()) + ", Sent => Topic:" + topic + ", Data: " + command);
             return {'status': 'success'}
