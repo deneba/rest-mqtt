@@ -1,0 +1,11 @@
+[EasyHomeList]
+1On:c29330
+1Off:c23290
+2On:c723b4
+2Off:c56334
+3On:c913ad
+3Off:33c82c
+4On:c05382
+4Off:c91312
+AllOn:cf421a
+AllOff:c9112a
